@@ -133,10 +133,10 @@
     <nav>
         <ul class="nav-menu">
             <li class="nav-item"><a class="nav-link active" onclick="showSection('dashboard')"><i class="fas fa-home"></i><span>الرئيسية</span></a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showSection('tasks')"><i class="fas fa-tasks"></i><span>المهام</span><span class="nav-badge" id="nav-tasks-count">4</span></a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showSection('skills')"><i class="fas fa-star"></i><span>المهارات</span><span class="nav-badge" id="nav-skills-count">94</span></a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showSection('tasks')"><i class="fas fa-tasks"></i><span>المهام</span><span class="nav-badge" id="nav-tasks-count">5</span></a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showSection('skills')"><i class="fas fa-star"></i><span>المهارات</span><span class="nav-badge" id="nav-skills-count">105</span></a></li>
             <li class="nav-item"><a class="nav-link" onclick="showSection('add-skill')"><i class="fas fa-plus-circle"></i><span>إضافة مهارة</span></a></li>
-            <li class="nav-item"><a class="nav-link" onclick="showSection('downloads')"><i class="fas fa-download"></i><span>التحميلات</span><span class="nav-badge">5</span></a></li>
+            <li class="nav-item"><a class="nav-link" onclick="showSection('downloads')"><i class="fas fa-download"></i><span>التحميلات</span><span class="nav-badge">14</span></a></li>
             <li class="nav-item"><a class="nav-link" onclick="showSection('agents')"><i class="fas fa-robot"></i><span>الوكلاء</span><span class="nav-badge">3</span></a></li>
         </ul>
     </nav>
@@ -158,12 +158,12 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-header"><span class="stat-label">مهمة منجزة</span><span class="stat-change">+12%</span></div>
-                    <div class="stat-value" id="stat-tasks">47</div>
+                    <div class="stat-value" id="stat-tasks">48</div>
                     <div class="stat-progress"><div class="stat-progress-bar" id="stat-tasks-bar" style="width: 85%"></div></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-header"><span class="stat-label">مهارة متوفرة</span><span class="stat-change" style="background: rgba(139,92,246,0.1); color: var(--accent-purple);">+<span id="new-skills-count">0</span></span></div>
-                    <div class="stat-value" id="stat-skills" style="color: var(--accent-purple);">94</div>
+                    <div class="stat-value" id="stat-skills" style="color: var(--accent-purple);">105</div>
                     <div class="stat-progress"><div class="stat-progress-bar" id="stat-skills-bar" style="width: 47%"></div></div>
                 </div>
                 <div class="stat-card">
@@ -173,7 +173,7 @@
                 </div>
                 <div class="stat-card">
                     <div class="stat-header"><span class="stat-label">تعلم مكثف</span><span class="stat-change" style="background: rgba(239,68,68,0.1); color: var(--accent-red);">مستمر</span></div>
-                    <div class="stat-value" id="stat-hours" style="color: var(--accent-red);">17h</div>
+                    <div class="stat-value" id="stat-hours" style="color: var(--accent-red);">20h</div>
                     <div class="stat-progress"><div class="stat-progress-bar" id="stat-hours-bar" style="width: 47%"></div></div>
                 </div>
             </div>
@@ -261,9 +261,9 @@
         <section id="skills" class="section">
             <div class="card">
                 <div class="tabs">
-                    <button class="tab-btn active" onclick="showTab('skills-all')">الكل (<span id="count-all">94</span>)</button>
-                    <button class="tab-btn" onclick="showTab('skills-completed')">مكتملة (<span id="count-completed">54</span>)</button>
-                    <button class="tab-btn" onclick="showTab('skills-pending')">متبقية (<span id="count-pending">40</span>)</button>
+                    <button class="tab-btn active" onclick="showTab('skills-all')">الكل (<span id="count-all">105</span>)</button>
+                    <button class="tab-btn" onclick="showTab('skills-completed')">مكتملة (<span id="count-completed">21</span>)</button>
+                    <button class="tab-btn" onclick="showTab('skills-pending')">متبقية (<span id="count-pending">5</span>)</button>
                 </div>
                 <div id="skills-all" class="tab-content" style="padding: 20px 24px;">
                     <div class="skills-grid" id="all-skills-container"></div>
