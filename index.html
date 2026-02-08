@@ -369,7 +369,7 @@ function updateNewSkillsDisplay() {
 
 // 📊 Update stats
 function updateStats() {
-    const totalSkills = 94 + userSkills.length;
+    const totalSkills = 105 + userSkills.length;
     document.getElementById('stat-skills').textContent = totalSkills;
     document.getElementById('new-skills-count').textContent = userSkills.length;
     document.getElementById('nav-skills-count').textContent = totalSkills;
@@ -380,7 +380,7 @@ function updateStats() {
 function loadData() {
     // Default data
     const defaultData = {
-        stats: { tasks: { current: 47 }, skills: { current: 94 }, agents: { current: 12 }, hours: { current: 17 } },
+        stats: { tasks: { current: 48 }, skills: { current: 105 }, agents: { current: 12 }, hours: { current: 20 } },
         tasks: [
             { icon: "🏆", title: "بوت تداول الذهب", desc: "EA احترافي لـ MT5", status: "active", priority: true, statusText: "قيد التطوير", date: "2026-02-08" },
             { icon: "💰", title: "البحث عن فرص الربح", desc: "أعمال جانبية بدخل $1000+", status: "completed", priority: true, statusText: "مكتمل", date: "2026-02-08" },
