@@ -1,21 +1,53 @@
 {
-  "lastUpdated": "2026-02-08T13:50:00",
-  "autoPushSystem": "✅ Installed - Ready to auto-push every 10 minutes",
+  "lastUpdated": "2026-02-08T15:55:00",
   "agent": {
     "name": "حسين",
-    "status": "متقدم | نشط | 🤖 Auto-Push Enabled",
+    "status": "متقدم | نشط",
     "level": "Advanced",
-    "skillsCount": 105,
-    "targetSkills": 200,
+    "skillsCompleted": 21,
+    "skillsTarget": 200,
+    "skillsRemaining": 179,
     "tasksCompleted": 48,
     "activeAgents": 12,
     "learningHours": 20
   },
   "stats": {
     "tasks": { "current": 48, "target": 50, "change": "+12%" },
-    "skills": { "current": 105, "target": 200, "change": "+11" },
+    "skills": { "completed": 21, "target": 200, "remaining": 179, "change": "+11" },
     "agents": { "current": 12, "target": 20, "change": "نشط" },
     "hours": { "current": 20, "target": 40, "change": "مستمر" }
+  },
+  "skills": {
+    "completed": [
+      { "icon": "🐳", "name": "Docker", "desc": "حاويات البرامج", "progress": 100 },
+      { "icon": "☁️", "name": "AWS/Cloud", "desc": "الخدمات السحابية", "progress": 100 },
+      { "icon": "🖥️", "name": "Remote Desktop", "desc": "TeamViewer, PowerShell, SSH", "progress": 100 },
+      { "icon": "📱", "name": "React/Next.js", "desc": "تطوير الواجهات", "progress": 100 },
+      { "icon": "🐍", "name": "Python Advanced", "desc": "Async, Decorators, ML", "progress": 100 },
+      { "icon": "🌐", "name": "Web Scraping", "desc": "Playwright, BS4", "progress": 100 },
+      { "icon": "🧠", "name": "Machine Learning", "desc": "TensorFlow, Scikit-Learn", "progress": 100 },
+      { "icon": "💻", "name": "MQL5", "desc": "Expert Advisors", "progress": 100 },
+      { "icon": "🤖", "name": "OpenClaw", "desc": "Automation Skills", "progress": 100 },
+      { "icon": "💰", "name": "تداول الذهب", "desc": "XAU/USD", "progress": 100 },
+      { "icon": "💱", "name": "العملات الرقمية", "desc": "Crypto, DeFi", "progress": 100 },
+      { "icon": "📈", "name": "Stock Analysis", "desc": "Fundamental + Technical", "progress": 100 },
+      { "icon": "💹", "name": "Options Trading", "desc": "Calls, Puts, Strategies", "progress": 100 },
+      { "icon": "🏦", "name": "Banking & Finance", "desc": "Fed, ECB", "progress": 100 },
+      { "icon": "📉", "name": "Technical Analysis", "desc": "Patterns, Fibonacci", "progress": 100 },
+      { "icon": "🛡️", "name": "Risk Management", "desc": "1% Rule", "progress": 100 },
+      { "icon": "📊", "name": "Portfolio Management", "desc": "Diversification", "progress": 100 },
+      { "icon": "🎙️", "name": "Content Studio", "desc": "Podcast, TTS", "progress": 100 },
+      { "icon": "📧", "name": "أتمتة البريد", "desc": "Email Marketing", "progress": 100 },
+      { "icon": "🔒", "name": "فحص الأمان", "desc": "Security Audit", "progress": 100 },
+      { "icon": "📧", "name": "إدارة البريد", "desc": "Email Automation", "progress": 100 }
+    ],
+    "pending": [
+      { "icon": "🗄️", "name": "قواعد البيانات المتقدمة", "desc": "PostgreSQL - Optimization", "progress": 0 },
+      { "icon": "🔄", "name": "CI/CD", "desc": "Jenkins - GitHub Actions", "progress": 0 },
+      { "icon": "📡", "name": "Kubernetes", "desc": "K8s - Orchestration", "progress": 0 },
+      { "icon": "⚡", "name": "Serverless", "desc": "Lambda - Functions", "progress": 0 },
+      { "icon": "💾", "name": "Terraform", "desc": "IaC - Infrastructure", "progress": 0 }
+    ]
   },
   "tasks": [
     {
@@ -69,43 +101,10 @@
       "date": "2026-02-08"
     }
   ],
-  "skills": {
-    "completed": [
-      { "icon": "🎙️", "name": "إنتاج البودكاست", "desc": "Content Studio - TTS", "progress": 100 },
-      { "icon": "💰", "name": "تداول الذهب", "desc": "XAU/USD - MQL5", "progress": 100 },
-      { "icon": "💻", "name": "برمجة MQL5", "desc": "Expert Advisors", "progress": 100 },
-      { "icon": "🌐", "name": "Web Scraping", "desc": "Playwright - BS4", "progress": 100 },
-      { "icon": "🎨", "name": "تصميم الويب", "desc": "HTML - CSS - JS", "progress": 100 },
-      { "icon": "🤖", "name": "OpenClaw", "desc": "Skills - Cron", "progress": 100 },
-      { "icon": "📊", "name": "تحليل البيانات", "desc": "Research - Analysis", "progress": 100 },
-      { "icon": "📧", "name": "إدارة البريد", "desc": "Email Automation", "progress": 100 },
-      { "icon": "🔒", "name": "فحص الأمان", "desc": "Security Audit", "progress": 100 },
-      { "icon": "💱", "name": "العملات الرقمية", "desc": "Crypto - DeFi", "progress": 100 },
-      { "icon": "🖥️", "name": "Remote Desktop", "desc": "TeamViewer - PowerShell - SSH", "progress": 100 },
-      { "icon": "🐳", "name": "Docker", "desc": "Containers - Images - Compose", "progress": 100 },
-      { "icon": "☁️", "name": "AWS/Cloud", "desc": "EC2 - S3 - Lambda", "progress": 100 },
-      { "icon": "📱", "name": "React/Next.js", "desc": "Modern Web Apps", "progress": 100 },
-      { "icon": "🐍", "name": "Python Advanced", "desc": "Async - Decorators - Generators", "progress": 100 },
-      { "icon": "🧠", "name": "Machine Learning", "desc": "TensorFlow - Scikit-Learn", "progress": 100 },
-      { "icon": "📈", "name": "Stock Analysis", "desc": "Fundamental - Technical", "progress": 100 },
-      { "icon": "💹", "name": "Options Trading", "desc": "Calls - Puts - Strategies", "progress": 100 },
-      { "icon": "🏦", "name": "Banking & Finance", "desc": "Fed - ECB - Indicators", "progress": 100 },
-      { "icon": "📉", "name": "Technical Analysis", "desc": "Advanced Patterns - Fibonacci", "progress": 100 },
-      { "icon": "🛡️", "name": "Risk Management", "desc": "1% Rule - Position Sizing", "progress": 100 }
-    ],
-    "pending": [
-      { "icon": "🗄️", "name": "قواعد البيانات المتقدمة", "desc": "PostgreSQL - Optimization", "progress": 0 },
-      { "icon": "🔄", "name": "CI/CD", "desc": "Jenkins - GitHub Actions", "progress": 0 },
-      { "icon": "📡", "name": "Kubernetes", "desc": "K8s - Orchestration", "progress": 0 },
-      { "icon": "⚡", "name": "Serverless", "desc": "Lambda - Functions", "progress": 0 },
-      { "icon": "💾", "name": "Terraform", "desc": "IaC - Infrastructure", "progress": 0 }
-    ]
-  },
   "downloads": [
     { "icon": "🏆", "title": "بوت تداول الذهب", "desc": "EA لـ MT5 (MQL5)", "file": "Gold_Scalper_V1.mq5" },
     { "icon": "📋", "title": "استراتيجية التداول", "desc": "تفاصيل الاستراتيجية", "file": "GOLD_SCALPER_V1_STRATEGY.md" },
     { "icon": "📖", "title": "دليل التثبيت", "desc": "خطوات MT5", "file": "INSTALLATION_GUIDE.md" },
-    { "icon": "📊", "title": "فرص الربح 2025", "desc": "تحليل 10+ فرص", "file": "MONEY_OPPORTUNITIES_2025.md" },
     { "icon": "🎓", "title": "دليل تعلم Docker", "desc": "من الصفر للإتقان", "file": "skills/01-DOCKER.md" },
     { "icon": "☁️", "title": "دليل AWS/Cloud", "desc": "الخدمات السحابية", "file": "skills/02-AWS.md" },
     { "icon": "📱", "title": "دليل React/Next.js", "desc": "تطوير الواجهات", "file": "skills/03-REACT.md" },
