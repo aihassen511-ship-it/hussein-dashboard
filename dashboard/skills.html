@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المهارات - التفاصيل الكاملة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(0,210,255,0.3);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .back-btn {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            border: 1px solid rgba(0,210,255,0.3);
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            background: rgba(0,210,255,0.2);
+            transform: translateX(-5px);
+        }
+        
+        .skills-list {
+            display: grid;
+            gap: 25px;
+        }
+        
+        .skill-detail {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(0,210,255,0.2);
+            border-radius: 20px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .skill-detail::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(180deg, #00d2ff, #3a7bd5);
+        }
+        
+        .skill-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .skill-icon {
+            font-size: 3.5rem;
+        }
+        
+        .skill-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        .skill-level {
+            display: inline-block;
+            background: rgba(0,210,255,0.2);
+            color: #00d2ff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        .skill-desc {
+            color: #bbb;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .skill-tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .tool-tag {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .skill-projects {
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 20px;
+        }
+        
+        .skill-projects h4 {
+            color: #00d2ff;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .project-item {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .project-item:last-child {
+            border-bottom: none;
+        }
+        
+        .project-name {
+            color: #fff;
+        }
+        
+        .project-status {
+            color: #22c55e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 تفاصيل المهارات</h1>
+            <a href="index-v3.html" class="back-btn">← رجوع للرئيسية</a>
+        </div>
+
+        <div class="skills-list">
+            <!-- Skill 1 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">🎙️</div>
+                    <div>
+                        <div class="skill-title">إنتاج البودكاست</div>
+                        <span class="skill-level">⭐⭐⭐⭐⭐ متقدم</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    إنتاج احترافي للبودكاست باستخدام أحدث أدوات الذكاء الاصطناعي. تشمل المهارة كتابة السكريبتات، 
+                    توليد الأصوات بالذكاء الاصطناعي، المونتاج الصوتي، والتعديل النهائي.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ ElevenLabs</span>
+                    <span class="tool-tag">🛠️ Adobe Audition</span>
+                    <span class="tool-tag">🛠️ Descript</span>
+                    <span class="tool-tag">🛠️ OpenAI TTS</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">مهارة Content Studio</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">تحليل فيديوهات OpenClaw</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">💻</div>
+                    <div>
+                        <div class="skill-title">البرمجة</div>
+                        <span class="skill-level">⭐⭐⭐⭐⭐ متقدم</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    تطوير سكربتات وبرامج باستخدام Python و JavaScript. بناء أدوات الأتمتة، 
+                    APIs، والحلول البرمجية المتكاملة.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ Python</span>
+                    <span class="tool-tag">🛠️ JavaScript</span>
+                    <span class="tool-tag">🛠️ Node.js</span>
+                    <span class="tool-tag">🛠️ APIs</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">مهارة tech-expert</span>
+                        <span class="project-status">⏳ قيد التطوير</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">موقع Portfolio</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">لوحة التحكم</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">🌐</div>
+                    <div>
+                        <div class="skill-title">سكرابنج البيانات</span>
+                        <span class="skill-level">⭐⭐⭐⭐⭐ متقدم</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    استخراج البيانات من المواقع بشكل آلي. بناء سكربتات تجمع المعلومات 
+                    وتنظمها في ملفات Excel أو قواعد بيانات.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ BeautifulSoup</span>
+                    <span class="tool-tag">🛠️ Selenium</span>
+                    <span class="tool-tag">🛠️ Playwright</span>
+                    <span class="tool-tag">🛠️ Pandas</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">بحث فرص الربح 2025</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">مراقبة أخبار OpenClaw</span>
+                        <span class="project-status">⏳ مستمر</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">🤖</div>
+                    <div>
+                        <div class="skill-title">الأتمتة الذكية</div>
+                        <span class="skill-level">⭐⭐⭐⭐ متوسط</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    ربط الأدوات والتطبيقات مع بعضها البعض. بناء سير عمل آلي 
+                    يقلل الوقت والجهد باستخدام Make.com, n8n, و APIs.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ Make.com</span>
+                    <span class="tool-tag">🛠️ n8n</span>
+                    <span class="tool-tag">🛠️ Zapier</span>
+                    <span class="tool-tag">🛠️ Webhooks</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">إعداد Cron Jobs</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">وكلاء المراقبة</span>
+                        <span class="project-status">✅ نشطون</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">🎨</div>
+                    <div>
+                        <div class="skill-title">التصميم</div>
+                        <span class="skill-level">⭐⭐⭐⭐ متوسط</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    تصميم واجهات المستخدم وبناء مواقع احترافية. العمل مع HTML, CSS, 
+                    وتصميم تجربة المستخدم.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ HTML/CSS</span>
+                    <span class="tool-tag">🛠️ Figma</span>
+                    <span class="tool-tag">🛠️ Responsive Design</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">موقع Portfolio</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">لوحة التحكم</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">📊</div>
+                    <div>
+                        <div class="skill-title">التحليل</div>
+                        <span class="skill-level">⭐⭐⭐⭐⭐ متقدم</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    تحليل البيانات واستخراج الرؤى المفيدة. العمل مع تقارير، 
+                    إحصائيات، وعرض البيانات بشكل واضح.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ Data Analysis</span>
+                    <span class="tool-tag">🛠️ Excel</span>
+                    <span class="tool-tag">🛠️ Reports</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">بحث فرص الربح 2025</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">تحليل أمان OpenClaw</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 7 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">📧</div>
+                    <div>
+                        <div class="skill-title">التسويق</div>
+                        <span class="skill-level">⭐⭐⭐⭐ متوسط</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    إنشاء حملات بريدية ومحتوى تسويقي. إدارة قوائم البريد 
+                    وإرسال رسائل مخصصة.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ SendGrid</span>
+                    <span class="tool-tag">🛠️ Mailchimp</span>
+                    <span class="tool-tag">🛠️ Email Templates</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">حملة بريدية</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 8 -->
+            <div class="skill-detail">
+                <div class="skill-header">
+                    <div class="skill-icon">🔒</div>
+                    <div>
+                        <div class="skill-title">الأمان</div>
+                        <span class="skill-level">⭐⭐⭐⭐⭐ متقدم</span>
+                    </div>
+                </div>
+                
+                <div class="skill-desc">
+                    فحص الأمان وحماية الأنظمة. اكتشاف الثغرات، مراجعة الشيفرات، 
+                    وضمان سلامة البيانات.
+                </div>
+                
+                <div class="skill-tools">
+                    <span class="tool-tag">🛠️ Security Audit</span>
+                    <span class="tool-tag">🛠️ Code Review</span>
+                    <span class="tool-tag">🛠️ Best Practices</span>
+                </div>
+                
+                <div class="skill-projects">
+                    <h4>📁 المشاريع المنجزة</h4>
+                    <div class="project-item">
+                        <span class="project-name">فحص أمان شامل</span>
+                        <span class="project-status">✅ مكتمل</span>
+                    </div>
+                    
+                    <div class="project-item">
+                        <span class="project-name">Cron يومي للمراقبة</span>
+                        <span class="project-status">✅ نشط</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
